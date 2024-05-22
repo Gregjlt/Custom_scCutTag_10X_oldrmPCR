@@ -1,0 +1,22 @@
+
+real	16m19.921s
+user	16m3.444s
+sys	0m12.946s
+
+real	0m15.499s
+user	0m30.037s
+sys	0m3.354s
+[WARNING]         multiqc : MultiQC Version v1.22.1 now available!
+[INFO   ]         multiqc : This is MultiQC v1.4
+[INFO   ]         multiqc : Template    : default
+[INFO   ]         multiqc : Report title: HCC_3-12_mm_froC_collab_HK_m02y24_oldrmPCR_H3K27ac
+[INFO   ]         multiqc : Searching '/data/kdi_prod/project_result/1184/02.00/results/scCutTag/mm10/HCC_3-12_mm_froC_collab_HK_m02y24_oldrmPCR_H3K27ac/scChIPseq_table.csv'
+[INFO   ]         multiqc : Searching '/data/kdi_prod/project_result/1184/02.00/results/scCutTag/mm10/HCC_3-12_mm_froC_collab_HK_m02y24_oldrmPCR_H3K27ac/scChIPseq_barcode.csv'
+[INFO   ]         multiqc : Searching '/data/kdi_prod/project_result/1184/02.00/results/scCutTag/mm10/HCC_3-12_mm_froC_collab_HK_m02y24_oldrmPCR_H3K27ac/scChIPseq_alignments.csv'
+[INFO   ]  custom_content : scChIPseq_general_table: Found 1 samples (table)
+[INFO   ]  custom_content : scChIPseq_barcode: Found 1 samples (bargraph)
+[INFO   ]  custom_content : scChIPseq_alignments: Found 1 samples (bargraph)
+[INFO   ]         multiqc : Compressing plot data
+[INFO   ]         multiqc : Report      : ../../../../../data/kdi_prod/project_result/1184/02.00/results/scCutTag/mm10/HCC_3-12_mm_froC_collab_HK_m02y24_oldrmPCR_H3K27ac/HCC_3-12_mm_froC_collab_HK_m02y24_oldrmPCR_H3K27ac_report.html
+[INFO   ]         multiqc : Data        : None
+[INFO   ]         multiqc : MultiQC complete

@@ -1,0 +1,23 @@
+
+real	169m19.614s
+user	168m35.583s
+sys	0m50.287s
+
+real	1m20.756s
+user	2m47.457s
+sys	0m16.244s
+//data/users/gjouault/GitLab/Custom_scCutTag_10X/scripts//make_metadata.sh: line 73: [: 20.67: integer expression expected
+[WARNING]         multiqc : MultiQC Version v1.22.1 now available!
+[INFO   ]         multiqc : This is MultiQC v1.4
+[INFO   ]         multiqc : Template    : default
+[INFO   ]         multiqc : Report title: hT_CIS_AL9879_froT_froN_m12y23_oldrmPCR_H3K4me1
+[INFO   ]         multiqc : Searching '/data/kdi_prod/project_result/1184/02.00/results/scCutTag/hg38/hT_CIS_AL9879_froT_froN_m12y23_oldrmPCR_H3K4me1/scChIPseq_table.csv'
+[INFO   ]         multiqc : Searching '/data/kdi_prod/project_result/1184/02.00/results/scCutTag/hg38/hT_CIS_AL9879_froT_froN_m12y23_oldrmPCR_H3K4me1/scChIPseq_barcode.csv'
+[INFO   ]         multiqc : Searching '/data/kdi_prod/project_result/1184/02.00/results/scCutTag/hg38/hT_CIS_AL9879_froT_froN_m12y23_oldrmPCR_H3K4me1/scChIPseq_alignments.csv'
+[INFO   ]  custom_content : scChIPseq_general_table: Found 1 samples (table)
+[INFO   ]  custom_content : scChIPseq_barcode: Found 1 samples (bargraph)
+[INFO   ]  custom_content : scChIPseq_alignments: Found 1 samples (bargraph)
+[INFO   ]         multiqc : Compressing plot data
+[INFO   ]         multiqc : Report      : ../../../../../data/kdi_prod/project_result/1184/02.00/results/scCutTag/hg38/hT_CIS_AL9879_froT_froN_m12y23_oldrmPCR_H3K4me1/hT_CIS_AL9879_froT_froN_m12y23_oldrmPCR_H3K4me1_report.html
+[INFO   ]         multiqc : Data        : None
+[INFO   ]         multiqc : MultiQC complete

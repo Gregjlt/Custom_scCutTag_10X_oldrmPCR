@@ -1,0 +1,78 @@
+Bonjour Greg!
+COMMAND Fastq+Barcoding+Trimming+Mapping+Filtering+Coverage+Counting+MQC+R_analysis 
+/data/kdi_prod/dataset/2018931/export/user/fastqs/ | /data/tmp/gjouault/results/CONFIG_MOUSE_scCutTag_10X_H3K27ME3_N5H10 | /data/kdi_prod/project_result/1184/02.00/results/scCutTag/mm10/HCC_3-12_mm_froC_collab_HK_m02y24_oldrmPCR_H3K27ac | HCC_3-12_mm_froC_collab_HK_m02y24_oldrmPCR_H3K27ac
+
+Starting on Tue May 21 23:54:07 CEST 2024 scCutTag 10X pipeline ! Results are available in /data/kdi_prod/project_result/1184/02.00/results/scCutTag/mm10/HCC_3-12_mm_froC_collab_HK_m02y24_oldrmPCR_H3K27ac
+
+Running pipeline for sample HCC_3-12_mm_froC_collab_HK_m02y24_oldrmPCR_H3K27ac
+Concatenating Input Fastqs from 10X... 
+
+Concatenating Fastqs From 10X together...
+Logs: /data/kdi_prod/project_result/1184/02.00/results/scCutTag/mm10/HCC_3-12_mm_froC_collab_HK_m02y24_oldrmPCR_H3K27ac/logs/concatenate_fastqs_from_10X.log
+
+Barcoding... 
+
+Running Bowtie2 index (barcode) mapping ...
+Logs: /data/kdi_prod/project_result/1184/02.00/results/scCutTag/mm10/HCC_3-12_mm_froC_collab_HK_m02y24_oldrmPCR_H3K27ac/logs/barcode/index_mapping_bowtie2.log
+
+Mapping using STAR... 
+
+Running STAR mapping ...
+Logs: /data/kdi_prod/project_result/1184/02.00/results/scCutTag/mm10/HCC_3-12_mm_froC_collab_HK_m02y24_oldrmPCR_H3K27ac/logs/genome/mapping_star.log
+
+Filtering... 
+
+Running add_cellBarcode_func...
+Logs: /data/kdi_prod/project_result/1184/02.00/results/scCutTag/mm10/HCC_3-12_mm_froC_collab_HK_m02y24_oldrmPCR_H3K27ac/logs/add_cellBarcode_func.log
+
+Running remove_PCR_RT_duplicates_func...
+Logs: /data/kdi_prod/project_result/1184/02.00/results/scCutTag/mm10/HCC_3-12_mm_froC_collab_HK_m02y24_oldrmPCR_H3K27ac/logs/remove_PCR_RT_duplicates_func.log
+
+Removing PCR duplicates using R1 POSITION & R2 POSITION
+Not removing RT duplicates
+Filtering out dark regions in bam file...
+Logs: /data/kdi_prod/project_result/1184/02.00/results/scCutTag/mm10/HCC_3-12_mm_froC_collab_HK_m02y24_oldrmPCR_H3K27ac/logs/filter_black_regions.log
+
+Filtered blacklisted regions !
+Coverage - BedGraph... 
+
+Coverage - BigWigs... 
+
+Generate bigwig file(s) ...
+Logs: /data/kdi_prod/project_result/1184/02.00/results/scCutTag/mm10/HCC_3-12_mm_froC_collab_HK_m02y24_oldrmPCR_H3K27ac/logs/bamCoverage.log
+
+Counting... 
+
+Generating counts table ...
+Logs: /data/kdi_prod/project_result/1184/02.00/results/scCutTag/mm10/HCC_3-12_mm_froC_collab_HK_m02y24_oldrmPCR_H3K27ac/logs/make_counts.log
+
+at 50000 resolution ...
+at 5000 resolution ...
+at 250 resolution ...
+at BED/gencode.M25.annotation.merged.bed resolution ...
+MQC... 
+
+add_info_to_log ...
+Logs: /data/kdi_prod/project_result/1184/02.00/results/scCutTag/mm10/HCC_3-12_mm_froC_collab_HK_m02y24_oldrmPCR_H3K27ac/logs/add_info_to_log.log
+
+76850198
+26999300
+26
+2701223
+26999300
+1821868
+0
+0
+0
+32536737
+0
+68.6693
+1.74978
+384220.8076
+26262011.4230
+353067.7692
+make metadata for mqc plots, done !
+Searching 3 files..
+
+Completed on Wed May 22 08:07:39 CEST 2024 ! Results are available in /data/kdi_prod/project_result/1184/02.00/results/scCutTag/mm10/HCC_3-12_mm_froC_collab_HK_m02y24_oldrmPCR_H3K27ac
+

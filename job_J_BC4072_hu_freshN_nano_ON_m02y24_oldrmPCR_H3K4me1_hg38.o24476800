@@ -1,0 +1,12 @@
+Bonjour Greg!
+COMMAND Fastq+Barcoding+Trimming+Mapping+Filtering+Coverage+Counting+MQC+R_analysis 
+/data/kdi_prod/dataset/2018930/export/user/fastqs/ | /data/tmp/gjouault/results/CONFIG_HUMAN_scCutTag_10X_K27_N5H09 | /data/kdi_prod/project_result/1184/02.00/results/scCutTag/hg38/J_BC4072_hu_freshN_nano_ON_m02y24_oldrmPCR_H3K4me1 | J_BC4072_hu_freshN_nano_ON_m02y24_oldrmPCR_H3K4me1
+
+Starting on Wed May 22 09:43:23 CEST 2024 scCutTag 10X pipeline ! Results are available in /data/kdi_prod/project_result/1184/02.00/results/scCutTag/hg38/J_BC4072_hu_freshN_nano_ON_m02y24_oldrmPCR_H3K4me1
+
+Running pipeline for sample J_BC4072_hu_freshN_nano_ON_m02y24_oldrmPCR_H3K4me1
+Concatenating Input Fastqs from 10X... 
+
+Concatenating Fastqs From 10X together...
+Logs: /data/kdi_prod/project_result/1184/02.00/results/scCutTag/hg38/J_BC4072_hu_freshN_nano_ON_m02y24_oldrmPCR_H3K4me1/logs/concatenate_fastqs_from_10X.log
+
