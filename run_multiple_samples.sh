@@ -76,7 +76,7 @@ DESIGN_TYPE=LBC
   FASTQ_DIR=/data/kdi_prod/dataset/${DATASET_NUMBER}/export/user/fastqs/
   
 
- echo "cd ~/GitLab/Custom_scCutTag_10X/; ./schip_processing.sh All -i ${FASTQ_DIR} -d ${DATASET_NAME} -c ${OUTPUT_CONFIG} -o ${OUTPUT_DIR} --name ${FINAL_NAME}" | qsub -l "nodes=1:ppn=8,mem=60gb" -N job_${FINAL_NAME}_${ASSEMBLY}
+ echo "cd ~/GitLab/Custom_scCutTag_10X_oldrmPCR/; ./schip_processing.sh All -i ${FASTQ_DIR} -d ${DATASET_NAME} -c ${OUTPUT_CONFIG} -o ${OUTPUT_DIR} --name ${FINAL_NAME}" | qsub -l "nodes=1:ppn=8,mem=60gb" -N job_${FINAL_NAME}_${ASSEMBLY}
 
 done < "$sample_sheet"
 
